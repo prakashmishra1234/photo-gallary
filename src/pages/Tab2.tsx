@@ -19,7 +19,6 @@ import { usePhotoGallery } from "../hooks/usePhotoGallery";
 
 const Tab2: React.FC = () => {
   const { photos, takePhoto } = usePhotoGallery();
-  console.log(photos, "photos");
 
   return (
     <IonPage>
